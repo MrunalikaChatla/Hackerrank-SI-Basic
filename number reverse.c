@@ -41,5 +41,5 @@ long long num,n,rem=0,rev=0;
         rev=rev*10+rem;
         n=n/10;
     }
-        printf("%d",rev);   
+        printf("%lld",rev);   
 }
